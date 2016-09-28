@@ -8,5 +8,7 @@ namespace Common
 {
     public class Class1
     {
+        /* Mandando mensajes a la consola usando System.console.writeline(""); */
+        
     }
 }

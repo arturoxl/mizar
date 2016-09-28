@@ -5,6 +5,20 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCMulticapasSln", "MVCMulticapasSln\MVCMulticapasSln.csproj", "{14909C0D-3F11-4CBD-9EB9-7A2C7D1727A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{7B32DBF0-F4B4-460E-9177-3A9751F484B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{1EAAF819-922F-4C80-8F57-00430C729BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServices", "DataServices\DataServices.csproj", "{1D270B24-C670-480B-8979-48E9DCA8AF92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessServices", "BusinessServices\BusinessServices.csproj", "{795F49D9-5C28-410C-BA78-3BCD56745281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeServices", "FacadeServices\FacadeServices.csproj", "{D9F6A195-A420-4FB9-ACDD-E37AED2DFAD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{32C59FDD-A71C-4EED-8A8D-14C1032A11F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTD", "OTD\OTD.csproj", "{D7B018D2-EE15-4585-8EFB-38421728FB53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +29,34 @@ Global
 		{14909C0D-3F11-4CBD-9EB9-7A2C7D1727A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14909C0D-3F11-4CBD-9EB9-7A2C7D1727A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14909C0D-3F11-4CBD-9EB9-7A2C7D1727A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B32DBF0-F4B4-460E-9177-3A9751F484B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B32DBF0-F4B4-460E-9177-3A9751F484B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B32DBF0-F4B4-460E-9177-3A9751F484B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B32DBF0-F4B4-460E-9177-3A9751F484B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAAF819-922F-4C80-8F57-00430C729BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAAF819-922F-4C80-8F57-00430C729BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAAF819-922F-4C80-8F57-00430C729BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAAF819-922F-4C80-8F57-00430C729BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D270B24-C670-480B-8979-48E9DCA8AF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D270B24-C670-480B-8979-48E9DCA8AF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D270B24-C670-480B-8979-48E9DCA8AF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D270B24-C670-480B-8979-48E9DCA8AF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795F49D9-5C28-410C-BA78-3BCD56745281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795F49D9-5C28-410C-BA78-3BCD56745281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795F49D9-5C28-410C-BA78-3BCD56745281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795F49D9-5C28-410C-BA78-3BCD56745281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F6A195-A420-4FB9-ACDD-E37AED2DFAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F6A195-A420-4FB9-ACDD-E37AED2DFAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F6A195-A420-4FB9-ACDD-E37AED2DFAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F6A195-A420-4FB9-ACDD-E37AED2DFAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C59FDD-A71C-4EED-8A8D-14C1032A11F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C59FDD-A71C-4EED-8A8D-14C1032A11F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C59FDD-A71C-4EED-8A8D-14C1032A11F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C59FDD-A71C-4EED-8A8D-14C1032A11F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B018D2-EE15-4585-8EFB-38421728FB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B018D2-EE15-4585-8EFB-38421728FB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B018D2-EE15-4585-8EFB-38421728FB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B018D2-EE15-4585-8EFB-38421728FB53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

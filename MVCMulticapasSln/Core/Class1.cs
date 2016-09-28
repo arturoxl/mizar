@@ -8,5 +8,7 @@ namespace Core
 {
     public class Class1
     {
+        /* Mandando mensajes a la consola usando System.console.writeline("");
+         * desde el core  */
     }
 }
