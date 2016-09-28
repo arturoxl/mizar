@@ -9,6 +9,6 @@ namespace DataServices
     public class Class1
     {
         /* Mandando mensajes a la consola usando System.console.writeline("");
-         * desde el core, esto es solo una prueba */
+         * desde el core, esto es solo un test */
     }
 }
