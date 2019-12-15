@@ -1,0 +1,76 @@
+﻿@model WebApplication.Models.ActorViewModel
+@{
+    ViewBag.Title = "Configuration";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<script>
+
+    function showListActors() {
+        //alert('Showing up actors list');
+        getAllActors( '@Url.Action("all", "api/actor")' );
+    }
+
+    function getAllActors(urlService) {
+        $.ajax({
+            type: "GET",
+            Accept : "application/json",
+            url: urlService,
+            success: function (resultado, status, xhr) {               
+                console.log("Resultado: ", resultado);
+                var newHtml = '';
+                for (var item in resultado){
+                    newHtml = newHtml + '<h6>' +
+                              ' Id: ' + resultado[item]['idActor'] +
+                              ' Name: ' + resultado[item]['name'] +
+                              ' LastName: ' + resultado[item]['lastname'] +
+                              ' Age: ' + resultado[item]['age'] 
+                              + '</h6>';
+                }
+                $('#divAccessConfiguration').replaceWith(newHtml);
+                //$('html, body').animate({ scrollTop: $("#divMensajesVehiculos").offset().top }, 500);
+            },
+            error: function (xhr, status, error) {
+                console.log("ERROR: ", xhr);
+                alert('Error, status is: ' + status);
+            },
+            complete: function (xhresponse, status) {
+                //alert('Request Complete: '+status);
+            }
+        });
+    }
+</script>
+<div id="divAccessConfiguration">
+    My configuration page    
+    @using (Html.BeginForm("AccessConfiguration", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        <h4>Pass values to Controller.</h4>
+        <hr />
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor( actorModel => actorModel.name, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor( actorModel => actorModel.name, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(actorModel => actorModel.lastname, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(actorModel => actorModel.lastname, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(actorModel => actorModel.age, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(actorModel => actorModel.age, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" class="btn btn-default" value="Register" on />
+                <input type="button" class="btn btn-default" value="Show List" onclick="showListActors(); return;"/>
+            </div>
+        </div>
+    }
+</div>
+

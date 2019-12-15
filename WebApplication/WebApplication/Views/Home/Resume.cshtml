@@ -1,0 +1,26 @@
+﻿@model IQueryable<Entity.Model.Actor>
+
+@{
+    ViewBag.Title = "Resume";
+}
+<div><b>Actors Resume</b><br /></div>
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th>Id Actor </th>
+        <th>First Name </th>
+        <th>Last Name </th>
+        <th>Age</th>        
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.idActor</td>
+            <td>@item.name</td>
+            <td>@item.lastname</td>
+            <td>@item.age</td>
+        </tr>
+    }
+</table>
+
+  
+

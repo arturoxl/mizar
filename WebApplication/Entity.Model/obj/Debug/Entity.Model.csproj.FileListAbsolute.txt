@@ -1,0 +1,13 @@
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\Entity.Model.dll.config
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\Entity.Model.dll
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\Entity.Model.pdb
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\EntityFramework.dll
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\MySql.Data.dll
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\EntityFramework.xml
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\MySql.Data.xml
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\obj\Debug\Entity.Model.dll
+C:\Users\Arturo\Projects\Visual\WebApplication\Entity.Model\obj\Debug\Entity.Model.pdb
